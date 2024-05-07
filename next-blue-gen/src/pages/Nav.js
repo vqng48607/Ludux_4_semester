@@ -1,28 +1,28 @@
 import React from "react";
+import "./Nav.css";
 
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div>
-      <h1>Home</h1>
-      <ul>
-        <li>
-          <Link to="/">Nav</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-        <li>
-          <Link to="/joboptions">Joboptions</Link>
-        </li>
-        <li>
-          <Link to="/profile">Profile</Link>
-        </li>
-      </ul>
+    <div class="parent">
+      <div class="child">
+        <ul>
+          <h1>Home</h1>
+          <p>
+            <Link to="/about">About</Link>
+          </p>
+          <p>
+            <Link to="/contact">Contact</Link>
+          </p>
+          <p>
+            <Link to="/joboptions">Joboptions</Link>
+          </p>
+          <p>
+            <Link to="/profile">Profile</Link>
+          </p>
+        </ul>
+      </div>
     </div>
   );
 };

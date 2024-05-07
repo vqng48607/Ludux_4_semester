@@ -1,0 +1,12 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100; /* Adjust width as needed */
+  height: 600; /* Adjust height as needed */
+  border: 4px solid #000;
+}
+.child {
+  /* Additional styling for content */
+  padding: 150px;
+}

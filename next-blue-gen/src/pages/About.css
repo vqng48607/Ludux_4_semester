@@ -1,0 +1,19 @@
+/* Style for the inner box */
+.inner-box {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #000;
+    margin: 10px auto; /* Center the inner boxes horizontally within the outer box with some margin between them */
+  }
+  
+  /* Style for the outer box */
+  .outer-box {
+    width: 1400px;
+    height: 700px;
+    border: 4px solid #000;
+    display: flex;
+    flex-direction: column; /* Arrange inner boxes in a vertical line */
+    justify-content: center; /* Center inner boxes vertically within the outer box */
+    align-items: center; /* Center inner boxes horizontally within the outer box */
+  }
+  
